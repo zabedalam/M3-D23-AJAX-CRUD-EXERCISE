@@ -49,20 +49,24 @@
             <div class="col-md-6">
                 <form onsubmit="handleSubmit()">
                     <div class="form-group">
-                        <label for="name">Event Name</label>
+                        <label for="name">Product Name</label>
                         <input type="text" class="form-control" id="name" placeholder="insert the name" required>
                     </div>
                     <div class="form-group">
-                        <label for="description">Event Description</label>
+                        <label for="description">Product Description</label>
                         <textarea class="form-control" id="description" rows="3" required></textarea>
                     </div>
                     <div class="form-group">
-                        <label for="price">Event Price</label>
+                        <label for="price">Product Price</label>
                         <input type="number" class="form-control" id="price" required>
                     </div>
                     <div class="form-group">
-                        <label for="time">Event Date-time</label>
-                        <input type="datetime-local" class="form-control" id="time" required>
+                        <label for="brand">Product Brand</label>
+                        <input type="text" class="form-control" id="brand" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="image">Product Image</label>
+                        <input type="image" class="form-control" id="image" required>
                     </div>
                     <div class="form-group">
                         <input type="button" class="btn btn-primary" value="Submit Event">

@@ -35,7 +35,17 @@
             - A front page, where the user can see the available products
             You can also start from the previous marketplace.
 
-
+- In the backoffice page
+                a) Add the chance to EDIT a single product
+                b) Add the chance to DELETE a single product
+                c) Add validation to before trying to create the product
+                d) Add error message if something went wrong
+​
+            - In the front page
+                a) add a loader while waiting for the product to load
+                b) add a link on each item to go to a detail page
+​
+            - Create a new detail page where you are going to display the item information
 
         -->
 </head>
@@ -66,8 +76,9 @@
                     </div>
                     <div class="form-group">
                         <label for="avatar">Product Image</label>
-                        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" required>
-
+                        <!-- <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" required> -->
+                        <!-- <input type="url" class="form-control" id="avatar" name="avatar" required> -->
+                        <input type="url" class="form-control" id="avatar" required>
                     </div>
                     <div class="form-group">
                         <input type="submit" class="btn btn-primary" value="Submit Event">
